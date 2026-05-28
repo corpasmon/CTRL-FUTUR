@@ -1,0 +1,67 @@
+.Més_informació {
+    max-width: 1100px;
+    margin: 120px auto 60px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.bloque_texto {
+    flex: 1;
+}
+
+.bloque_texto h2 {
+    color: #0056b3;
+    font-size: 32px;
+    margin: 30px 0 15px 0;
+}
+
+.bloque_texto p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+}
+
+.Puntitos {
+    margin: 0 0 20px 20px;
+    padding: 0;
+    line-height: 1.67;
+    color: #555;
+    font-size: 18px;
+}
+
+.Puntitos li {
+    margin-bottom: 10px;
+}
+
+.foto {
+    width: 350px;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Adaptabilidad para móviles y tablets */
+@media (max-width: 768px) {
+    .Més_informació {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .foto {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .foto img {
+        max-width: 400px;
+    }
+}

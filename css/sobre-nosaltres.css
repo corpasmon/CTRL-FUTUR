@@ -1,0 +1,89 @@
+.nosaltres-contenidor {
+    max-width: 1100px;
+    margin: 120px auto 60px auto;
+    padding: 0 20px;
+}
+
+.nosaltres-disposicio {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.nosaltres-textos {
+    flex: 1;
+}
+
+.nosaltres-imatge {
+    width: 400px;
+}
+
+.nosaltres-imatge img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/*No tocar esto esta en la guia del moodle*/
+@media (max-width: 768px) {
+    .nosaltres-disposicio {
+        flex-direction: column;
+    }
+
+    .nosaltres-imatge {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+/*=========================================*/
+.nosaltres-introduccio {
+    margin-bottom: 50px;
+}
+
+.nosaltres-introduccio h1 {
+    color: #0056b3;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.nosaltres-introduccio p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.nosaltres-historia {
+    margin-bottom: 50px;
+}
+
+.nosaltres-historia h2 {
+    color: #333;
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+
+.nosaltres-historia p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.nosaltres-contacte {
+    border-top: 2px solid #0056b3;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+.nosaltres-contacte h2 {
+    color: #333;
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+
+.nosaltres-contacte p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
